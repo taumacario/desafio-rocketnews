@@ -1,0 +1,123 @@
+html{
+    height: 100%;
+}
+
+body {
+    background-color: black;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+}
+
+body::before {
+    background-image: url(./assets/read_news.jpg);
+    position: absolute;
+    content: "";
+    width: 48%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    background-size: cover;
+    background-position: center right;
+}
+
+.container {
+    width: 100%;
+    margin:0 37px;
+}
+
+.cabecalho {
+    margin-top: 50px;
+    
+}
+.box2 {
+    width: 52%;
+    margin-top: 92px;
+
+}
+.titulo {
+    font-family: 'Spartan', sans-serif;;
+    font-size: 24px;
+    font-weight: 700;
+    color: #08C05E;
+    line-height: 28px;
+}
+.subtitulo {
+    font-family: 'Spartan', sans-serif;;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 15px;
+}
+.paragrafo {
+    font-family: 'Spartan', sans-serif;;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 19px;
+}
+.box3{
+    margin-top: 50px;
+    width: 60%;
+}
+
+.box3 form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.box3 form input {
+    flex: 1;
+    height: 48px;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Spartan', sans-serif;;
+    font-size: 12px;
+    font-weight: 400;
+    border-left: solid 5px #04D361;
+    padding: 10px;
+
+}
+
+
+.box3 form button {
+    height: 48px;
+    width: 48px;
+    border: none;
+    background-color: #8257E5;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email {
+    font-family: 'Spartan', sans-serif;;
+    font-size: 14px;
+    font-weight: 700;
+    color: #A8A8A8;
+}
+
+.box4{
+    margin-top: 50px;
+}
+
+.link {
+    text-decoration: none;
+    color: #8257E5;
+    font-family: 'Spartan', sans-serif;;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+}
+
+.link img {
+    margin-left: 5px;
+}
